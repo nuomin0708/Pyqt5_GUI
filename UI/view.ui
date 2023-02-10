@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查看表格</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../vb.qrc">
+    <normaloff>:/view/images/vie1.png</normaloff>:/view/images/vie1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 14pt &quot;宋体&quot;;</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,5,1">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>5</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="sheet_label">
+        <property name="styleSheet">
+         <string notr="true">
+	font: 20pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+
+border:0px;
+	
+background-color: rgb(220, 220, 220);</string>
+        </property>
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
+      <property name="leftMargin">
+       <number>10</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>30</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+
+QPushButton{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+
+}
+QPushButton:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+}</string>
+        </property>
+        <property name="text">
+         <string>查看</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/edit/images/view.png</normaloff>:/edit/images/view.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+
+QPushButton{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+
+}
+QPushButton:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+}</string>
+        </property>
+        <property name="text">
+         <string>编辑</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/editname/images/xiugai.png</normaloff>:/editname/images/xiugai.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+
+QPushButton{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+
+}
+QPushButton:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+}</string>
+        </property>
+        <property name="text">
+         <string>返回</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/view/images/go.png</normaloff>:/view/images/go.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../vb.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>goback_to_menu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>798</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>834</x>
+     <y>689</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>edit_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>580</x>
+     <y>562</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>614</x>
+     <y>714</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>view_conc()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>230</x>
+     <y>555</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>716</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>goback_to_menu()</slot>
+  <slot>edit_cao()</slot>
+  <slot>view_conc()</slot>
+ </slots>
+</ui>

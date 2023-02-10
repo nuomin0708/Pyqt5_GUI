@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>508</width>
+    <height>189</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="2,1" columnstretch="1,1">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <property name="leftMargin">
+       <number>40</number>
+      </property>
+      <property name="topMargin">
+       <number>10</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;宋体&quot;;</string>
+        </property>
+        <property name="text">
+         <string>请选择保存的路径</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;宋体&quot;;</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="leftMargin">
+       <number>20</number>
+      </property>
+      <property name="topMargin">
+       <number>20</number>
+      </property>
+      <property name="rightMargin">
+       <number>5</number>
+      </property>
+      <property name="bottomMargin">
+       <number>20</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>0</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>10</number>
+      </property>
+      <item row="0" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QCheckBox" name="normal_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QCheckBox{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QCheckBox:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QCheckBox::indicator {
+    width: 20px;/*勾选框的大小*/
+    height: 20px;
+}
+QCheckBox {
+    spacing: 10px;/*复选框文本与勾选框（就是左边的勾选小框框，自己瞎叫的）的距离*/
+    /*还可以设置一些常用的属性，这里都是设置复选框而不是勾选框的。
+    font:...
+    background-color:...
+    padding:...
+    */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>正式文件</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/edit/images/save.png</normaloff>:/edit/images/save.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0" alignment="Qt::AlignHCenter">
+       <widget class="QCheckBox" name="history_btn">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QCheckBox{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QCheckBox:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QCheckBox::indicator {
+    width: 20px;/*勾选框的大小*/
+    height: 20px;
+}
+QCheckBox {
+    spacing: 10px;/*复选框文本与勾选框（就是左边的勾选小框框，自己瞎叫的）的距离*/
+    /*还可以设置一些常用的属性，这里都是设置复选框而不是勾选框的。
+    font:...
+    background-color:...
+    padding:...
+    */
+}
+</string>
+        </property>
+        <property name="text">
+         <string>编辑历史</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/edit/images/history.png</normaloff>:/edit/images/history.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QWidget" name="widget_3" native="true">
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4" rowstretch="0">
+      <property name="leftMargin">
+       <number>60</number>
+      </property>
+      <property name="topMargin">
+       <number>5</number>
+      </property>
+      <property name="rightMargin">
+       <number>60</number>
+      </property>
+      <property name="bottomMargin">
+       <number>10</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>40</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>20</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="pushButton">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+
+QPushButton{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+
+}
+QPushButton:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+}</string>
+        </property>
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+
+QPushButton{
+	font: 16pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+
+}
+QPushButton:hover{
+	font: 16pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+}</string>
+        </property>
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../vb.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>ok_PathDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>174</x>
+     <y>219</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-240</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Dialog</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>521</x>
+     <y>216</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>899</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>ok_PathDialog()</slot>
+ </slots>
+</ui>

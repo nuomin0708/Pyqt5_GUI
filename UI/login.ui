@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>登录</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../vb.qrc">
+    <normaloff>:/title/images/hi.png</normaloff>:/title/images/hi.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/login/images/lo.jpg);
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>100</number>
+   </property>
+   <property name="topMargin">
+    <number>100</number>
+   </property>
+   <property name="rightMargin">
+    <number>100</number>
+   </property>
+   <property name="bottomMargin">
+    <number>300</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">
+font: 35pt &quot;宋体&quot;;
+background-color: rgb(243, 243, 243);
+border:0px;</string>
+     </property>
+     <property name="text">
+      <string>欢迎使用实验器材管理系统</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../vb.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>goto_menu()</slot>
+ </slots>
+</ui>

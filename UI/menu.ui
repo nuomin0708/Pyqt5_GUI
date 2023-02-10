@@ -1,0 +1,1076 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="windowModality">
+   <enum>Qt::NonModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>612</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>信息查询</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../vb.qrc">
+    <normaloff>:/title/images/cha.png</normaloff>:/title/images/cha.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Form
+{
+	background-color: rgb(255, 255, 255);
+}
+QWidget{
+	font: 12pt &quot;宋体&quot;;
+
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout" rowstretch="1,0">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="1" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2" rowstretch="1,4" columnstretch="4,1">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QWidget" name="widget_4" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>75</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3" columnstretch="2,2,2,2,1,1">
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>5</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="btn1">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(181, 181, 181);
+
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QPushButton" name="btn2">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(181, 181, 181);
+
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="btn3">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(181, 181, 181);
+
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QPushButton" name="btn4">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	
+	background-color: rgb(181, 181, 181);
+
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QPushButton" name="right_btn">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	
+	image: url(:/menu/images/le.png);
+border:0px
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QPushButton" name="left_btn">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	image: url(:/menu/images/ri.png);
+border:0px
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="1" rowspan="2">
+       <widget class="QWidget" name="widget_3" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>158</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_5">
+         <property name="leftMargin">
+          <number>0</number>
+         </property>
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="rightMargin">
+          <number>10</number>
+         </property>
+         <property name="bottomMargin">
+          <number>20</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QPushButton" name="pushButton">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string>查看详情</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/xiang_menu.png</normaloff>:/menu/images/xiang_menu.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+</string>
+           </property>
+           <property name="text">
+            <string>正式文件</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/have_menu.png</normaloff>:/menu/images/have_menu.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string>增加分类</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/add_menu.png</normaloff>:/menu/images/add_menu.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string>编辑记录</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/his.png</normaloff>:/menu/images/his.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QPushButton" name="pushButton_7">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}
+</string>
+           </property>
+           <property name="text">
+            <string>一键导入</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/dao_menu.png</normaloff>:/menu/images/dao_menu.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">
+
+QPushButton{
+	font: 14pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+border:0px
+}
+QPushButton:hover{
+	font: 14pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(220, 220, 220);
+border:0px
+}</string>
+           </property>
+           <property name="text">
+            <string>程序重置</string>
+           </property>
+           <property name="icon">
+            <iconset resource="../vb.qrc">
+             <normaloff>:/menu/images/re_menu.png</normaloff>:/menu/images/re_menu.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>35</width>
+             <height>35</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QWidget" name="widget_5" native="true">
+        <layout class="QGridLayout" name="gridLayout_6">
+         <property name="leftMargin">
+          <number>10</number>
+         </property>
+         <property name="topMargin">
+          <number>5</number>
+         </property>
+         <property name="rightMargin">
+          <number>5</number>
+         </property>
+         <property name="bottomMargin">
+          <number>20</number>
+         </property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QTableWidget" name="tableWidget">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::StrongFocus</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>95</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4" columnstretch="1,5,2">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>10</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <property name="horizontalSpacing">
+       <number>20</number>
+      </property>
+      <property name="verticalSpacing">
+       <number>0</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">image: url(:/menu/images/num_menu.png);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="search_lineEdit">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>IBeamCursor</cursorShape>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::ClickFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLineEdit{
+
+
+background-color:transparent;
+	font: 20pt &quot;宋体&quot;;
+	border:2px solid rgb(186,186,186);
+border-radius:20px
+
+}
+
+
+</string>
+        </property>
+        <property name="maxLength">
+         <number>8</number>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>请输入器材编号</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+
+QPushButton{
+	font: 20pt &quot;宋体&quot;;
+color: rgb(0, 0, 0);
+background-color: rgb(220, 220, 220);
+	border-radius:20px;
+border:0px
+}
+QPushButton:hover{
+	font: 20pt &quot;宋体&quot;;
+	color: rgb(0, 0, 0);
+	background-color: rgb(173, 173, 173);
+border-radius:20px;
+border:0px
+}</string>
+        </property>
+        <property name="text">
+         <string>搜索</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../vb.qrc">
+          <normaloff>:/menu/images/menu.png</normaloff>:/menu/images/menu.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../vb.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>left_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>left_btn_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>841</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>right_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>right_btn_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1000</x>
+     <y>168</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>change_four_btn_color_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>348</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>180</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>change_four_btn_color_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>512</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>139</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>change_four_btn_color_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>677</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>reset_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>918</x>
+     <y>538</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1114</x>
+     <y>543</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>one_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>978</x>
+     <y>498</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1100</x>
+     <y>516</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>goto_concrete()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>985</x>
+     <y>175</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1074</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>add_new_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>985</x>
+     <y>336</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1108</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>view_history_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>985</x>
+     <y>417</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1093</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>old_lis_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>985</x>
+     <y>256</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1067</x>
+     <y>146</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>search_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>895</x>
+     <y>51</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1147</x>
+     <y>55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn1</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>change_four_btn_color_cao()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>164</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>0</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>mnp_gt_cpp()</slot>
+  <slot>mnp_gt_ccp()</slot>
+  <slot>personal_center_cao()</slot>
+  <slot>find_information_cao()</slot>
+  <slot>equipment_lend()</slot>
+  <slot>error_message_feedback_cao()</slot>
+  <slot>equipment_lend_cao()</slot>
+  <slot>import_export_data_cao()</slot>
+  <slot>open_excel_cao()</slot>
+  <slot>import_data_to_database_cao()</slot>
+  <slot>add_data_cao()</slot>
+  <slot>delete_data_cao()</slot>
+  <slot>change_background_cao()</slot>
+  <slot>left_btn_cao()</slot>
+  <slot>right_btn_cao()</slot>
+  <slot>add_title_cao()</slot>
+  <slot>change_title_color_cao()</slot>
+  <slot>change_information_cao()</slot>
+  <slot>my_borrow_cao()</slot>
+  <slot>my_collect_cao()</slot>
+  <slot>add_class_cao()</slot>
+  <slot>change_four_btn_color_cao()</slot>
+  <slot>history_edit_cao()</slot>
+  <slot>slot1()</slot>
+  <slot>update_cao()</slot>
+  <slot>export_data_cao()</slot>
+  <slot>import_data_cao()</slot>
+  <slot>edit_cao()</slot>
+  <slot>goto_concrete()</slot>
+  <slot>getPosContent()</slot>
+  <slot>old_lis_cao()</slot>
+  <slot>add_new_cao()</slot>
+  <slot>view_history_cao()</slot>
+  <slot>one_cao()</slot>
+  <slot>output_all()</slot>
+  <slot>output_part()</slot>
+  <slot>search_cao()</slot>
+  <slot>reset_cao()</slot>
+ </slots>
+</ui>
